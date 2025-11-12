@@ -3,3 +3,14 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+# Maven
+/target
+*.log
+
+# IntelliJ
+.idea
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
