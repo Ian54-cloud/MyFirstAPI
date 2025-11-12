@@ -1,3 +1,15 @@
 # MyFirstAPI
-#This API is about generating a Student id number based on his first and last name
-#The user will insert his first name, last name, and then the program will generate a Student id. To create the student id, i got the first character of his first name and the first character of his last name and the, through the Random object , we will have a 6 digit random number. 
+A Spring Boot REST API that generates unique Student IDs based on a user’s first and last name.
+
+##Functionality
+
+- Accepts a student's first and last name via a POST request
+- Automatically generates a unique Student ID 
+- Validates empty fields
+- Returns data as a JSON response
+  ## Tech Stack
+- **Java 17**
+- **Spring Boot 3**
+- **Maven**
+- **REST API**
+- **JSON**
